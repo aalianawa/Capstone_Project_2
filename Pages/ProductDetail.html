@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eiser E-Commerce</title>
+
+    <!-- bootstrap links -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://unpkg.com/bs-brain@2.0.4/utilities/font-size/font-size.css" />
+    <link rel="stylesheet" href="https://unpkg.com/bs-brain@2.0.4/utilities/padding/padding.css" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <!-- icons link -->
+    <script src="https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js"></script>
+    <!-- style link -->
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+
+<body>
+    <!-- nav section -->
+    <header class="header_area">
+        <div class="top_menu">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7">
+                        <div class="float-left">
+                            <p>Phone: +01 256 25 235</p>
+                            <p>email: <a href="/cdn-cgi/l/email-protection" class="__cf_email__"
+                                    data-cfemail="533a3d353c13363a2036217d303c3e">[email&#160;protected]</a></p>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="float-right">
+                            <ul class="right_side">
+                                <li>
+                                    <a href="cart.html">
+                                        gift card
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="tracking.html">
+                                        track order
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="contact.html">
+                                        Contact Us
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main_menu">
+            <div class="container mt-5">
+                <nav class="navbar navbar-expand-lg navbar-light w-100">
+
+                    <a class="navbar-brand logo_h" href="index.html">
+                        <img src="../Images/logo.png.webp" alt />
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse offset w-100" id="navbarSupportedContent">
+                        <div class="row w-100 mr-0">
+                            <div class="col-lg-7 pr-0">
+                                <ul class="nav navbar-nav center_nav pull-right">
+                                    <li class="nav-item active">
+                                        <a class="nav-link" href="/index.html">Home</a>
+                                    </li>
+                                    <li class="nav-item submenu dropdown">
+                                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"
+                                            role="button" aria-haspopup="true" aria-expanded="false">Shop</a>
+                                        <ul class="dropdown-menu">
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="/Pages/ShopCategory.html">Shop Category</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="/Pages/ProductDetail.html">Product Details</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="">Product Checkout</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="/Pages/Cart.html">Shopping Cart</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item submenu dropdown">
+                                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"
+                                            role="button" aria-haspopup="true" aria-expanded="false">Blog</a>
+                                        <ul class="dropdown-menu">
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="/Pages/blog.html">Blog</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="">Blog Details</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item submenu dropdown">
+                                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"
+                                            role="button" aria-haspopup="true" aria-expanded="false">Pages</a>
+                                        <ul class="dropdown-menu">
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="/Pages/Tracking.html">Tracking</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="/Pages/Element.html">Elements</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="/Pages/Contact.html">Contact</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-5 pr-0">
+                                <ul class="nav navbar-nav navbar-right right_nav pull-right">
+                                    <li class="nav-item">
+                                        <a href="#" class="icons">
+                                            <iconify-icon aria-hidden="true"
+                                                icon="bitcoin-icons:search-outline"></iconify-icon>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="icons">
+                                            <iconify-icon icon="bitcoin-icons:cart-outline"></iconify-icon>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="icons">
+                                            <iconify-icon icon="jam:user"></iconify-icon>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="icons">
+                                            <iconify-icon icon="system-uicons:heart"></iconify-icon>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- banner -->
+
+    <div class="bar_cnt">
+        <div class="container">
+            <div class="mt-5 py-5 d-md-flex justify-content-between align-items-center">
+                <div class="mb-3 mb-md-0 p-4">
+                    <h2 class="fw-bolder">Product Details</h2>
+                    <p>Very us move be blessed multiply night</p>
+                </div>
+                <div class="p_l p-4">
+                    <a href="/index.html">Home</a>
+                    <a href="../Pages/ProductDetail.html">Product Details</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- carousal -->
+    <div class="product_image_area">
+        <div class="container mt-5 py-5">
+            <div class="row s_product_inner">
+                <div class="col-lg-6">
+                    <div class="s_p_i">
+                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active">
+                                    <img src="../Images/s-product-s-2.jpg.webp" alt="Thumbnail 1">
+                                </li>
+                                <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1">
+                                    <img src="../Images/s-product-s-3.jpg.webp" alt="Thumbnail 2">
+                                </li>
+                                <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2">
+                                    <img src="../Images/s-product-s-4.jpg.webp" alt="Thumbnail 3">
+                                </li>
+                            </ol>
+                            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="../Images/s-product-1.jpg.webp" class="d-block w-100" alt="Slide 1">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="../Images/s-product-1.jpg (1).webp" class="d-block w-100"
+                                            alt="Slide 2">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="../Images/s-product-1.jpg (2).webp" class="d-block w-100"
+                                            alt="Slide 3">
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button"
+                                data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button"
+                                data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 offset-lg-1">
+                    <div class="s_p_t">
+                        <h3>Faded SkyBlu Denim Jeans</h3>
+                        <h2>$149.99</h2>
+                        <ul class="list">
+                            <li>
+                                <a class="active" href="#">
+                                    <span class="me-4">Category</span> : Household</a>
+                            </li>
+                            <li>
+                                <a href="#"> <span class="">Availability <span class="mx-4">: In Stock</span></span>
+                                </a>
+                            </li>
+                        </ul>
+                        <p class="mb-5 mt-5">
+                            Mill Oil is an innovative oil filled radiator with the most
+                            modern technology. If you are looking for something that can
+                            make your interior look awesome, and at the same time give you
+                            the pleasant warm feeling during the winter.
+                        </p>
+                        <div class="product_count">
+                            <label for="qty">Quantity:</label>
+                            <input type="text" name="qty" id="sst" maxlength="12" value="1" title="Quantity:"
+                                class="input-text qty" />
+                            <!-- <button>
+                                <i class="lnr lnr-chevron-up"></i>
+                            </button>
+                            <button>
+                                <i class="lnr lnr-chevron-down"></i>
+                            </button> -->
+                        </div>
+                        <div class="c_a mt-4">
+                            <button class="p_btn  text-uppercase">Add to Cart</button>
+                            <a class="icon_btn" href="#">
+                                <i class="lnr lnr lnr-diamond"></i>
+                            </a>
+                            <a class="icon_btn" href="#">
+                                <i class="lnr lnr lnr-heart"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5 py-5">
+        <!-- Tabs -->
+        <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
+            <li class="nav-item me-3" role="presentation">
+                <a class="nav-link active" id="home-tab" data-bs-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Description</a>
+            </li>
+            <li class="nav-item me-3" role="presentation">
+                <a class="nav-link" id="profile-tab" data-bs-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Specification</a>
+            </li>
+            <li class="nav-item me-3" role="presentation">
+                <a class="nav-link" id="contact-tab" data-bs-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Comments</a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link" id="review-tab" data-bs-toggle="tab" href="#review" role="tab" aria-controls="review" aria-selected="false">Reviews</a>
+            </li>
+        </ul>
+        <!-- Tab Content -->
+        <div class="tab-content mt-3" id="myTabContent">
+            <!-- Description Tab -->
+            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                <p class="d-p">
+                    Beryl Cook is one of Britain’s most talented and amusing artists .Beryl’s pictures feature women of
+                    all shapes and sizes enjoying themselves .Born between the two world wars, Beryl Cook eventually
+                    left Kendrick School in Reading at the age of 15, where she went to secretarial school and then into
+                    an insurance office. After moving to London and then Hampton, she eventually married her next door
+                    neighbour from Reading, John Cook. He was an officer in the Merchant Navy and after he left the sea
+                    in 1956, they bought a pub for a year before John took a job in Southern Rhodesia with a motor
+                    company. Beryl bought their young son a box of watercolours, and when showing him how to use it, she
+                    decided that she herself quite enjoyed painting. John subsequently bought her a child’s painting set
+                    for her birthday and it was with this that she produced her first significant work, a half-length
+                    portrait of a dark-skinned lady with a vacant expression and large drooping breasts. It was aptly
+                    named ‘Hangover’ by Beryl’s husband and
+                </p>
+                <p class="d-p">
+                    It is often frustrating to attempt to plan meals that are designed for one. Despite this fact, we
+                    are seeing more and more recipe books and Internet websites that are dedicated to the act of cooking
+                    for one. Divorce and the death of spouses or grown children leaving for college are all reasons that
+                    someone accustomed to cooking for more than one would suddenly need to learn how to adjust all the
+                    cooking practices utilized before into a streamlined plan of cooking that is more efficient for one
+                    person creating less
+
+
+                </p>
+            </div>
+
+            <!-- Specification Tab -->
+            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                <div class="table-responsive">
+                    <table class="table">
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <h5>Width</h5>
+                                </td>
+                                <td>
+                                    <h5>128mm</h5>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <h5>Height</h5>
+                                </td>
+                                <td>
+                                    <h5>508mm</h5>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <h5>Depth</h5>
+                                </td>
+                                <td>
+                                    <h5>85mm</h5>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <h5>Weight</h5>
+                                </td>
+                                <td>
+                                    <h5>52gm</h5>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <h5>Quality checking</h5>
+                                </td>
+                                <td>
+                                    <h5>yes</h5>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <h5>Freshness Duration</h5>
+                                </td>
+                                <td>
+                                    <h5>03days</h5>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <h5>When packeting</h5>
+                                </td>
+                                <td>
+                                    <h5>Without touch of hand</h5>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <h5>Each Box contains</h5>
+                                </td>
+                                <td>
+                                    <h5>60pcs</h5>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Comments Tab -->
+            <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="comment_list">
+                            <div class="r_i">
+                                <div class="med d-flex align-items-start position-relative">
+                                    <div class="d-flex me-3">
+                                        <img src="../Images/review-1.png.webp" alt="User 1" class="img-fluid" />
+                                    </div>
+                                    <div class="media-body mt-3">
+                                        <h4>Blake Ruiz</h4>
+                                        <h5>12th Feb, 2017 at 05:56 pm</h5>
+                                        <button class="btn btn-lnk reply_btn position-absolute">Reply</button>
+                                    </div>
+                                </div>
+                                <p class="mt-3 p-3">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                </p>
+                            </div>
+                            <!-- More comments here -->
+                            <div class="r_i">
+                                <div class="med d-flex align-items-start position-relative">
+                                    <div class="d-flex me-3">
+                                        <img src="../Images/review-2.png.webp" alt="User 1" class="img-fluid" />
+                                    </div>
+                                    <div class="media-body mt-3">
+                                        <h4>Blake Ruiz</h4>
+                                        <h5>12th Feb, 2017 at 05:56 pm</h5>
+                                        <button class="btn btn-lnk reply_btn position-absolute">Reply</button>
+                                    </div>
+                                </div>
+                                <p class="mt-3 p-3">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                </p>
+                            </div>
+                            <div class="r_i">
+                                <div class="med d-flex align-items-start position-relative">
+                                    <div class="d-flex me-3">
+                                        <img src="../Images/review-3.png.webp" alt="User 1" class="img-fluid" />
+                                    </div>
+                                    <div class="media-body mt-3">
+                                        <h4>Blake Ruiz</h4>
+                                        <h5>12th Feb, 2017 at 05:56 pm</h5>
+                                        <button class="btn btn-lnk reply_btn position-absolute">Reply</button>
+                                    </div>
+                                </div>
+                                <p class="mt-3 p-3">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="review_box">
+                            <h4>Post a comment</h4>
+                            <form class="row" action="contact_process.php" method="post">
+                                <div class="col-md-12 mb-3">
+                                    <input type="text" class="form-control" id="name" name="name"
+                                        placeholder="Your Full name" />
+                                </div>
+                                <div class="col-md-12 mb-3">
+                                    <input type="email" class="form-control" id="email" name="email"
+                                        placeholder="Email Address" />
+                                </div>
+                                <div class="col-md-12 mb-3">
+                                    <input type="text" class="form-control" id="number" name="number"
+                                        placeholder="Phone Number" />
+                                </div>
+                                <div class="col-md-12 mb-3">
+                                    <textarea class="form-control" name="message" id="message" rows="3"
+                                        placeholder="Message"></textarea>
+                                </div>
+                                <div class="col-md-12 text-end">
+                                    <button type="submit" class="btn btn-s">Submit Now</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Reviews Tab -->
+            <div class="tab-pane fade" id="review" role="tabpanel" aria-labelledby="review-tab">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="row total_rate">
+                            <div class="col-6">
+                                <div class="box_total">
+                                    <h5>Overall</h5>
+                                    <h4>4.0</h4>
+                                    <h6>(03 Reviews)</h6>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="rating_list">
+                                    <h3>Based on 3 Reviews</h3>
+                                    <ul class="list-unstyled">
+                                        <li><a href="#">5 Star <i class="fa fa-star"></i> 01</a></li>
+                                        <li><a href="#">4 Star <i class="fa fa-star"></i> 01</a></li>
+                                        <li><a href="#">3 Star <i class="fa fa-star"></i> 01</a></li>
+                                        <li><a href="#">2 Star <i class="fa fa-star"></i> 01</a></li>
+                                        <li><a href="#">1 Star <i class="fa fa-star"></i> 01</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="review_list">
+                            <div class="review_item">
+                                <div class="media">
+                                    <div class="d-flex">
+                                        <img src="img/product/single-product/review-1.png" alt="User 1"
+                                            class="img-fluid" />
+                                    </div>
+                                    <div class="media-body">
+                                        <h4>Blake Ruiz</h4>
+                                        <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                            class="fa fa-star"></i><i class="fa fa-star"></i>
+                                    </div>
+                                </div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+                            </div>
+                            <!-- More reviews here -->
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="review_box">
+                            <h4>Add a Review</h4>
+                            <p>Your Rating:</p>
+                            <ul class="list-unstyled">
+                                <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                <li><a href="#"><i class="fa fa-star"></i></a></li>
+                                <li><a href="#"><i class="fa fa-star"></i></a></li>
+                            </ul>
+                            <p>Outstanding</p>
+                            <form class="row" action="contact_process.php" method="post">
+                                <div class="col-md-12 mb-3">
+                                    <input type="text" class="form-control" id="name" name="name"
+                                        placeholder="Your Full name" />
+                                </div>
+                                <div class="col-md-12 mb-3">
+                                    <input type="email" class="form-control" id="email" name="email"
+                                        placeholder="Email Address" />
+                                </div>
+                                <div class="col-md-12 mb-3">
+                                    <input type="text" class="form-control" id="number" name="number"
+                                        placeholder="Phone Number" />
+                                </div>
+                                <div class="col-md-12 mb-3">
+                                    <textarea class="form-control" name="message" id="message" rows="3"
+                                        placeholder="Review"></textarea>
+                                </div>
+                                <div class="col-md-12 text-end">
+                                    <button type="submit" class="btn btn-primary">Submit Now</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer part -->
+    <div class="footer_s">
+        <div class="container mt-5 py-5">
+            <div class="row">
+                <div class="col-lg-2 col-md-3">
+                    <h3>Top Products</h3>
+                    <ul>
+                        <li><a href="#">Managed Website</a></li>
+                        <li><a href="#">Manage Reputation</a></li>
+                        <li><a href="#">Power Tools</a></li>
+                        <li><a href="#">Marketing Service</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-3">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#">Jobs</a></li>
+                        <li><a href="#">Brand Assets</a></li>
+                        <li><a href="#">Investor Relations</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-3">
+                    <h3>Features</h3>
+                    <ul>
+                        <li><a href="#">Jobs</a></li>
+                        <li><a href="#">Brand Assets</a></li>
+                        <li><a href="#">Investor Relations</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-3">
+                    <h3>Resources</h3>
+                    <ul>
+                        <li><a href="#">Guides</a></li>
+                        <li><a href="#">Research</a></li>
+                        <li><a href="#">Experts</a></li>
+                        <li><a href="#">Agencies</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <h3>Newsletter</h3>
+                    <p>You can trust us. We only send promo offers.</p>
+                    <div class="form-wrap" id="mc_embed_signup">
+                        <form target="_blank"
+                            action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
+                            method="get" class="form-inline">
+                            <input class="form-control" name="EMAIL" placeholder="Your Email Address"
+                                onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Email Address '"
+                                required type="email">
+                            <button class="click-btn footer_btn">Subscribe</button>
+                            <div style="position: absolute; left: -5000px;">
+                                <input name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value type="text">
+                            </div>
+                            <div class="info"></div>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="footer_bottom mt-4 py-4 row">
+                    <p class="col-lg-8 col-md-6 mt-2 pt-2">Copyright ©2024 All rights reserved | This template is made
+                        with <iconify-icon icon="circum:heart"></iconify-icon> by <a href="#"> Colorlib</a></p>
+                    <div class="col-lg-4 col-md-6 footer-social text-md-end">
+                        <a href="#"><iconify-icon icon="eva:facebook-fill"></iconify-icon></a>
+                        <a href="#"><iconify-icon icon="mingcute:twitter-fill"></iconify-icon></a>
+                        <a href="#"><iconify-icon icon="ph:dribbble-logo-thin"></iconify-icon></a>
+                        <a href="#"><iconify-icon icon="basil:behance-solid"></iconify-icon></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

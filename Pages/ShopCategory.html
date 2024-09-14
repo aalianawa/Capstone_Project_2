@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eiser E-Commerce</title>
+
+    <!-- bootstrap links -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://unpkg.com/bs-brain@2.0.4/utilities/font-size/font-size.css" />
+    <link rel="stylesheet" href="https://unpkg.com/bs-brain@2.0.4/utilities/padding/padding.css" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <!-- icons link -->
+    <script src="https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js"></script>
+    <!-- style link -->
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+
+<body>
+    <!-- nav section -->
+    <header class="header_area">
+        <div class="top_menu">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7">
+                        <div class="float-left">
+                            <p>Phone: +01 256 25 235</p>
+                            <p>email: <a href="/cdn-cgi/l/email-protection" class="__cf_email__"
+                                    data-cfemail="533a3d353c13363a2036217d303c3e">[email&#160;protected]</a></p>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="float-right">
+                            <ul class="right_side">
+                                <li>
+                                    <a href="cart.html">
+                                        gift card
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="tracking.html">
+                                        track order
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="contact.html">
+                                        Contact Us
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main_menu">
+            <div class="container mt-5">
+                <nav class="navbar navbar-expand-lg navbar-light w-100">
+
+                    <a class="navbar-brand logo_h" href="index.html">
+                        <img src="../Images/logo.png.webp" alt />
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse offset w-100" id="navbarSupportedContent">
+                        <div class="row w-100 mr-0">
+                            <div class="col-lg-7 pr-0">
+                                <ul class="nav navbar-nav center_nav pull-right">
+                                    <li class="nav-item active">
+                                        <a class="nav-link" href="/index.html">Home</a>
+                                    </li>
+                                    <li class="nav-item submenu dropdown">
+                                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"
+                                            role="button" aria-haspopup="true" aria-expanded="false">Shop</a>
+                                        <ul class="dropdown-menu">
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="/Pages/ShopCategory.html">Shop Category</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="/Pages/ProductDetail.html">Product Details</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="">Product Checkout</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="/Pages/Cart.html">Shopping Cart</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item submenu dropdown">
+                                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"
+                                            role="button" aria-haspopup="true" aria-expanded="false">Blog</a>
+                                        <ul class="dropdown-menu">
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="/Pages/blog.html">Blog</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="">Blog Details</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item submenu dropdown">
+                                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"
+                                            role="button" aria-haspopup="true" aria-expanded="false">Pages</a>
+                                        <ul class="dropdown-menu">
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="/Pages/Tracking.html">Tracking</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="/Pages/Element.html">Elements</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="/Pages/Contact.html">Contact</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-5 pr-0">
+                                <ul class="nav navbar-nav navbar-right right_nav pull-right">
+                                    <li class="nav-item">
+                                        <a href="#" class="icons">
+                                            <iconify-icon aria-hidden="true"
+                                                icon="bitcoin-icons:search-outline"></iconify-icon>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="icons">
+                                            <iconify-icon icon="bitcoin-icons:cart-outline"></iconify-icon>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="icons">
+                                            <iconify-icon icon="jam:user"></iconify-icon>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="icons">
+                                            <iconify-icon icon="system-uicons:heart"></iconify-icon>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- banner -->
+
+    <div class="bar_cnt">
+        <div class="container">
+            <div class="mt-5 py-5 d-md-flex justify-content-between align-items-center">
+                <div class="mb-3 mb-md-0 p-4">
+                    <h2 class="fw-bolder">Shop Category</h2>
+                    <p>Very us move be blessed multiply night</p>
+                </div>
+                <div class="p_l p-4">
+                    <a href="/index.html">Home</a>
+                    <a href="/Pages/ShopCategory.html">Shop</a>
+                    <a href="/Pages/ShopCategory.html">Womens Fashion</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- products  -->
+    <div class="container mt-5 py-5">
+        <div class="row flex-row-reverse">
+            <div class="col-lg-9">
+                <div class="p-t_b">
+                    <div class="lt_dp">
+                        <select class="sorting">
+                            <option value="1">Default sorting</option>
+                            <option value="2">Default sorting 01</option>
+                            <option value="4">Default sorting 02</option>
+                        </select>
+                        <select class="show">
+                            <option value="1">Show 12</option>
+                            <option value="2">Show 14</option>
+                            <option value="4">Show 16</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="latest_product_inner">
+                    <div class="row justify-content-center mt-4 py-4">
+                        <div class="col-lg-4 col-md-6">
+                          <div class="single-product">
+                            <div class="product-img">
+                              <img class="img-fluid w-100" src="../Images/i1.jpg (1).webp" alt />
+                              <div class="p_icon">
+                                <a href="#">
+                                  <iconify-icon icon="healthicons:eye-outline"></iconify-icon>
+                                </a>
+                                <a href="#">
+                                  <iconify-icon icon="system-uicons:heart"></iconify-icon>
+                                </a>
+                                <a href="#">
+                                  <iconify-icon icon="bitcoin-icons:cart-outline"></iconify-icon>
+                                </a>
+                              </div>
+                            </div>
+                            <div class="p-botm">
+                              <a href="#" class="d-block">
+                                <h4 class="text-uppercase">Latest men’s sneaker</h4>
+                              </a>
+                              <div class="pt-3">
+                                <span class="me-4 fw-bolder fs-5">$25.00</span>
+                                <del>$35.00</del>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                          <div class="single-product">
+                            <div class="product-img">
+                              <img class="img-fluid w-100" src="../Images/i2.jpg.webp" alt />
+                              <div class="p_icon">
+                                <a href="#">
+                                  <iconify-icon icon="healthicons:eye-outline"></iconify-icon>
+                                </a>
+                                <a href="#">
+                                  <iconify-icon icon="system-uicons:heart"></iconify-icon>
+                                </a>
+                                <a href="#">
+                                  <iconify-icon icon="bitcoin-icons:cart-outline"></iconify-icon>
+                                </a>
+                              </div>
+                            </div>
+                            <div class="p-botm">
+                              <a href="#" class="d-block">
+                                <h4 class="text-uppercase">Red women purses</h4>
+                              </a>
+                              <div class="pt-3">
+                                <span class="me-4 fw-bolder fs-5">$25.00</span>
+                                <del>$35.00</del>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                          <div class="single-product">
+                            <div class="product-img">
+                              <img class="img-fluid w-100" src="../Images/i3.jpg (1).webp" alt />
+                              <div class="p_icon">
+                                <a href="#">
+                                  <iconify-icon icon="healthicons:eye-outline"></iconify-icon>
+                                </a>
+                                <a href="#">
+                                  <iconify-icon icon="system-uicons:heart"></iconify-icon>
+                                </a>
+                                <a href="#">
+                                  <iconify-icon icon="bitcoin-icons:cart-outline"></iconify-icon>
+                                </a>
+                              </div>
+                            </div>
+                            <div class="p-botm">
+                              <a href="#" class="d-block">
+                                <h4 class="text-uppercase">Men stylist Smart Watch</h4>
+                              </a>
+                              <div class="pt-3">
+                                <span class="me-4 fw-bolder fs-5">$25.00</span>
+                                <del>$35.00</del>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row justify-content-center mt-4 py-4">
+                        <div class="col-lg-4 col-md-6">
+                          <div class="single-product">
+                            <div class="product-img">
+                              <img class="img-fluid w-100" src="../Images/i4.jpg (1).webp" alt />
+                              <div class="p_icon">
+                                <a href="#">
+                                  <iconify-icon icon="healthicons:eye-outline"></iconify-icon>
+                                </a>
+                                <a href="#">
+                                  <iconify-icon icon="system-uicons:heart"></iconify-icon>
+                                </a>
+                                <a href="#">
+                                  <iconify-icon icon="bitcoin-icons:cart-outline"></iconify-icon>
+                                </a>
+                              </div>
+                            </div>
+                            <div class="p-botm">
+                              <a href="#" class="d-block">
+                                <h4 class="text-uppercase">Latest men’s sneaker</h4>
+                              </a>
+                              <div class="pt-3">
+                                <span class="me-4 fw-bolder fs-5">$25.00</span>
+                                <del>$35.00</del>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                          <div class="single-product">
+                            <div class="product-img">
+                              <img class="img-fluid w-100" src="../Images/i5.jpg.webp" alt />
+                              <div class="p_icon">
+                                <a href="#">
+                                  <iconify-icon icon="healthicons:eye-outline"></iconify-icon>
+                                </a>
+                                <a href="#">
+                                  <iconify-icon icon="system-uicons:heart"></iconify-icon>
+                                </a>
+                                <a href="#">
+                                  <iconify-icon icon="bitcoin-icons:cart-outline"></iconify-icon>
+                                </a>
+                              </div>
+                            </div>
+                            <div class="p-botm">
+                              <a href="#" class="d-block">
+                                <h4 class="text-uppercase">Red women purses</h4>
+                              </a>
+                              <div class="pt-3">
+                                <span class="me-4 fw-bolder fs-5">$25.00</span>
+                                <del>$35.00</del>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                          <div class="single-product">
+                            <div class="product-img">
+                              <img class="img-fluid w-100" src="../Images/i6.jpg.webp" alt />
+                              <div class="p_icon">
+                                <a href="#">
+                                  <iconify-icon icon="healthicons:eye-outline"></iconify-icon>
+                                </a>
+                                <a href="#">
+                                  <iconify-icon icon="system-uicons:heart"></iconify-icon>
+                                </a>
+                                <a href="#">
+                                  <iconify-icon icon="bitcoin-icons:cart-outline"></iconify-icon>
+                                </a>
+                              </div>
+                            </div>
+                            <div class="p-botm">
+                              <a href="#" class="d-block">
+                                <h4 class="text-uppercase">Men stylist Smart Watch</h4>
+                              </a>
+                              <div class="pt-3">
+                                <span class="me-4 fw-bolder fs-5">$25.00</span>
+                                <del>$35.00</del>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row justify-content-center mt-4 py-4">
+                        <div class="col-lg-4 col-md-6">
+                          <div class="single-product">
+                            <div class="product-img">
+                              <img class="img-fluid w-100" src="../Images/i7.jpg (1).webp" alt />
+                              <div class="p_icon">
+                                <a href="#">
+                                  <iconify-icon icon="healthicons:eye-outline"></iconify-icon>
+                                </a>
+                                <a href="#">
+                                  <iconify-icon icon="system-uicons:heart"></iconify-icon>
+                                </a>
+                                <a href="#">
+                                  <iconify-icon icon="bitcoin-icons:cart-outline"></iconify-icon>
+                                </a>
+                              </div>
+                            </div>
+                            <div class="p-botm">
+                              <a href="#" class="d-block">
+                                <h4 class="text-uppercase">Latest men’s sneaker</h4>
+                              </a>
+                              <div class="pt-3">
+                                <span class="me-4 fw-bolder fs-5">$25.00</span>
+                                <del>$35.00</del>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                          <div class="single-product">
+                            <div class="product-img">
+                              <img class="img-fluid w-100" src="../Images/i8.jpg (1).webp" alt />
+                              <div class="p_icon">
+                                <a href="#">
+                                  <iconify-icon icon="healthicons:eye-outline"></iconify-icon>
+                                </a>
+                                <a href="#">
+                                  <iconify-icon icon="system-uicons:heart"></iconify-icon>
+                                </a>
+                                <a href="#">
+                                  <iconify-icon icon="bitcoin-icons:cart-outline"></iconify-icon>
+                                </a>
+                              </div>
+                            </div>
+                            <div class="p-botm">
+                              <a href="#" class="d-block">
+                                <h4 class="text-uppercase">Red women purses</h4>
+                              </a>
+                              <div class="pt-3">
+                                <span class="me-4 fw-bolder fs-5">$25.00</span>
+                                <del>$35.00</del>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                          <div class="single-product">
+                            <div class="product-img">
+                              <img class="img-fluid w-100" src="../Images/i2.jpg.webp" alt />
+                              <div class="p_icon">
+                                <a href="#">
+                                  <iconify-icon icon="healthicons:eye-outline"></iconify-icon>
+                                </a>
+                                <a href="#">
+                                  <iconify-icon icon="system-uicons:heart"></iconify-icon>
+                                </a>
+                                <a href="#">
+                                  <iconify-icon icon="bitcoin-icons:cart-outline"></iconify-icon>
+                                </a>
+                              </div>
+                            </div>
+                            <div class="p-botm">
+                              <a href="#" class="d-block">
+                                <h4 class="text-uppercase">Men stylist Smart Watch</h4>
+                              </a>
+                              <div class="pt-3">
+                                <span class="me-4 fw-bolder fs-5">$25.00</span>
+                                <del>$35.00</del>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="left_sidebar_area">
+                    <aside class="lf_wd p-4 p_f-W">
+                        <div class="l_w_title">
+                            <h3>Browse Categories</h3>
+                        </div>
+                        <div class="widgets_inner">
+                            <ul class="list">
+                                <li>
+                                    <a href="#">Frozen Fish</a>
+                                </li>
+                                <li>
+                                    <a href="#">Dried Fish</a>
+                                </li>
+                                <li>
+                                    <a href="#">Fresh Fish</a>
+                                </li>
+                                <li>
+                                    <a href="#">Meat Alternatives</a>
+                                </li>
+                                <li>
+                                    <a href="#">Fresh Fish</a>
+                                </li>
+                                <li>
+                                    <a href="#">Meat Alternatives</a>
+                                </li>
+                                <li>
+                                    <a href="#">Meat</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </aside>
+                    <aside class="lf_wd p_f-W p-4">
+                        <div class="l_w_title">
+                            <h3>Product Brand</h3>
+                        </div>
+                        <div class="widgets_inner">
+                            <ul class="list">
+                                <li>
+                                    <a href="#">Apple</a>
+                                </li>
+                                <li>
+                                    <a href="#">Asus</a>
+                                </li>
+                                <li class="active">
+                                    <a href="#">Gionee</a>
+                                </li>
+                                <li>
+                                    <a href="#">Micromax</a>
+                                </li>
+                                <li>
+                                    <a href="#">Samsung</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </aside>
+                    <aside class="lf_wd p_f-W p-4">
+                        <div class="l_w_title">
+                            <h3>Color Filter</h3>
+                        </div>
+                        <div class="widgets_inner">
+                            <ul class="list">
+                                <li>
+                                    <a href="#">Black</a>
+                                </li>
+                                <li>
+                                    <a href="#">Black Leather</a>
+                                </li>
+                                <li class="active">
+                                    <a href="#">Black with red</a>
+                                </li>
+                                <li>
+                                    <a href="#">Gold</a>
+                                </li>
+                                <li>
+                                    <a href="#">Spacegrey</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </aside>
+                    <aside class="lf_wd p_f-W p-4">
+                        <div class="l_w_title">
+                            <h3>Price Filter</h3>
+                        </div>
+                        <div class="widgets_inner">
+                            <div class="range_item">
+                                <div id="slider-range"></div>
+                                <div class>
+                                    <label for="amount">Price : </label>
+                                    <input type="text" id="amount" readonly />
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- footer part -->
+    <div class="footer_s">
+        <div class="container mt-5 py-5">
+            <div class="row">
+                <div class="col-lg-2 col-md-3">
+                    <h3>Top Products</h3>
+                    <ul>
+                        <li><a href="#">Managed Website</a></li>
+                        <li><a href="#">Manage Reputation</a></li>
+                        <li><a href="#">Power Tools</a></li>
+                        <li><a href="#">Marketing Service</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-3">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#">Jobs</a></li>
+                        <li><a href="#">Brand Assets</a></li>
+                        <li><a href="#">Investor Relations</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-3">
+                    <h3>Features</h3>
+                    <ul>
+                        <li><a href="#">Jobs</a></li>
+                        <li><a href="#">Brand Assets</a></li>
+                        <li><a href="#">Investor Relations</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-3">
+                    <h3>Resources</h3>
+                    <ul>
+                        <li><a href="#">Guides</a></li>
+                        <li><a href="#">Research</a></li>
+                        <li><a href="#">Experts</a></li>
+                        <li><a href="#">Agencies</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <h3>Newsletter</h3>
+                    <p>You can trust us. We only send promo offers.</p>
+                    <div class="form-wrap" id="mc_embed_signup">
+                        <form target="_blank"
+                            action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
+                            method="get" class="form-inline">
+                            <input class="form-control" name="EMAIL" placeholder="Your Email Address"
+                                onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Email Address '"
+                                required type="email">
+                            <button class="click-btn footer_btn">Subscribe</button>
+                            <div style="position: absolute; left: -5000px;">
+                                <input name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value type="text">
+                            </div>
+                            <div class="info"></div>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="footer_bottom mt-4 py-4 row">
+                    <p class="col-lg-8 col-md-6 mt-2 pt-2">Copyright ©2024 All rights reserved | This template is made
+                        with <iconify-icon icon="circum:heart"></iconify-icon> by <a href="#"> Colorlib</a></p>
+                    <div class="col-lg-4 col-md-6 footer-social text-md-end">
+                        <a href="#"><iconify-icon icon="eva:facebook-fill"></iconify-icon></a>
+                        <a href="#"><iconify-icon icon="mingcute:twitter-fill"></iconify-icon></a>
+                        <a href="#"><iconify-icon icon="ph:dribbble-logo-thin"></iconify-icon></a>
+                        <a href="#"><iconify-icon icon="basil:behance-solid"></iconify-icon></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
